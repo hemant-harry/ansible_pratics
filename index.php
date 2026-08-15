@@ -1,4 +1,19 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ansible PHP Server</title>
+</head>
+<body>
 
-echo "Hello, This is from the Github Side !"; 
-?>
+    <h1>Welcome to Ansible Web Server</h1>
+
+    <h2>PHP is Working Successfully!</h2>
+
+    <?php
+        echo "<p>Hello from PHP</p>";
+        echo "<p>Server Hostname: " . gethostname() . "</p>";
+        echo "<p>PHP Version: " . phpversion() . "</p>";
+    ?>
+
+</body>
+</html>
